@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+     <form action="#" class="form">
+         <div class="form-head">
+            <a href="index.html" class="form-back"><</a>
+            <h2 class="form-title">
+                Apply for position!
+            </h2>
+         </div>
+         <div class="form-body">
+             <fieldset class="form-fillset">
+                <legend>Your Nickname In Real Life :)</legend>
+                 <input type="text" placeholder="Name" class="form-name" name="name">
+                 <input type="text"  placeholder="Surname" class="form-surname" name="surname">
+
+             </fieldset>
+             <div class="form-wrapper">
+                 <p class="gender">
+                     Your gender
+                 </p>
+                <input id="gender-male" type="radio" class="gender-male" name="gender">
+                <label for="gender-male">M</label>
+                <input id="gender-female" type="radio" class="gender-female" name="gender">
+                <label for="gender-female">F</label>
+             </div>
+             <div class="form-wrapper">
+                 <input type="checkbox" name="age" id="age-checkbox" class="age-checkbox">
+                 <label for="age-checkbox">I am 18</label>
+             </div>
+             <div class="form-wrapper">
+                <label for="games">What Games Do You Play!</label>
+                <select name="games" id="games" class="games">
+                     <option value="CS:GO">CS:GO</option>
+                     <option value="DoTa2">DoTa2</option>
+                     <option value="Apex Legends">Apex Legends</option>
+                 </select>
+             </div>
+             <textarea name="comments" id="comments" class="comments" placeholder="Extra comments"></textarea>
+             <button  class="form-button" type="submit">Send Application</button>
+         </div>
+
+     </form>   
+</body>
+</html>

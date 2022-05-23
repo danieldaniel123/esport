@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.form {
+    box-shadow: 0px 5px 20px black;
+    background-color: #222222;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.form-head {
+    height: 50px;
+    background-color: #65DAFF;
+    position: relative;
+}
+.form-back {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    display: inline-block;
+    color: #222222;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.form-back:hover{
+    background-color: grey;
+}
+.form-title {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.form-body {
+    color: white;
+    padding: 30px;
+}
+.form-wrapper {
+    margin-top: 50px;
+}
+.form-name, .form-surname {
+    width: 100%;
+    background-color: #222222;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px  solid white ;
+    padding: 15px;
+
+}
+.form-surname {
+
+}
+.gender {
+    margin-bottom: 10px;
+
+}
+.gender-male {
+
+}
+.gender-female {
+    margin-left: 20px;
+}
+.age-checkbox {
+    margin-right: 10px;
+}
+.games {
+}
+.comments {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #222222;
+    border: 1px solid white;
+    padding: 20px;
+    color: black;
+    outline: none;
+    height: 250px;
+    resize: none;
+}
+.form-button {
+    background-color: cyan;
+    padding: 20px 100px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(45deg, #65daff, #7dffcb );
+    display: block;
+    margin: 20px auto;
+}
+.form-fillset{
+    padding: 30px;
+}
+@media(max-width:456px){
+    .form-title {
+        color: white;
+        font-size: 10px;
+        
+    }
+    .form-button { 
+        padding: 10px 60px;
+        margin: 20px auto;
+    }
+}
